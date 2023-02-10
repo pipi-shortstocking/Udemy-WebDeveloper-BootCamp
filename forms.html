@@ -11,8 +11,33 @@
     <h1>Forms Demo</h1>
 
     <form action="/tacos">
-
+        <p>
+            <!--다수에게 배포할 경우 혹은 포트폴리오로 사용할 경우에는 label을 필수적으로 사용할 것-->
+            <label for="username">Enter a Username:</label>
+            <input id="username" type="text" placeholder="username" name="username">
+        </p>
+        <p>
+            <label for="password">Enter a Password:</label>
+            <input id="password" type="password" placeholder="password" name="password">
+        </p>
+        <p>
+            <label for="color">Enter a Color:</label>
+            <input type="color" id="color" name="color">
+        </p>
+        <p>
+            <label>Enter a Number:
+                <input type="number" placeholder="enter a number" name="num">
+            </label>
+        </p>
+        <!--제출되지 않음-->
+        <button type="button">Regular button (won't submit)</button>
+        <!--제출됨-->
+        <button>Submit!!!</button>
+        <input type="submit" value="Click Me!">
     </form>
+    <hr>
+    <!--폼 밖에 있으면 제출되지 않음-->
+    <button>Not Inside Form</button>
 
 </body>
 
