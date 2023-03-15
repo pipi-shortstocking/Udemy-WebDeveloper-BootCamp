@@ -21,10 +21,6 @@ h1,h2 {
     color: #f1faee;
 }
 
-h2 + button {
-    font-size: 20px;
-}
-
 span {
     color: #457b9d;
 }
@@ -42,4 +38,12 @@ span {
 
 footer a {
     color:#e63946;
+}
+
+h2 + button {
+    font-size: 20px;
+}
+
+footer > a {
+    color:#457b9d;
 }
