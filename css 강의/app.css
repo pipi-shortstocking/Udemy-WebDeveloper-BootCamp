@@ -15,6 +15,7 @@ h1,h2 {
     color: #1d3557;
 }
 
+/* id selector*/
 #signup {
     background-color: #1d3557;
     color: #f1faee;
@@ -22,4 +23,23 @@ h1,h2 {
 
 h2 + button {
     font-size: 20px;
+}
+
+span {
+    color: #457b9d;
+}
+
+/* class selector */
+.tag {
+    background-color: #e63946;
+    color:#f1faee;
+    font-size:16px;
+}
+
+.post a {
+    color:#457b9d;
+}
+
+footer a {
+    color:#e63946;
 }
