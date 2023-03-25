@@ -92,3 +92,7 @@ button:hover {
 }
 
 /* ID > CLASS > ELEMENT */
+
+button {
+    background-color: magenta !important;
+}
