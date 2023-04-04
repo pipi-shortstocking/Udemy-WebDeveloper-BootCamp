@@ -1,11 +1,10 @@
 span {
     background-color: palevioletred;
     border: 1px solid black;
-    width: 500px;
+    width: 500px; /* 인라인 디스플레이는 너비, 높이 무시 */
     padding: 50px;
     margin: 50px;
 }
-
 
 h1 {
     background-color: paleturquoise;
@@ -15,13 +14,11 @@ h1 {
     margin: 100px;
 }
 
-
 div {
-    height: 200px;
-    width: 200px;
+    height:200px;
+    width:200px;
     background-color: olivedrab;
     border: 5px solid black;
     display: inline-block;
     margin: 50px;
-
 }
