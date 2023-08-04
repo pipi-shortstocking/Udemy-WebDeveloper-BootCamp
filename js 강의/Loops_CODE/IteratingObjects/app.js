@@ -10,23 +10,14 @@ const testScores = {
     diedre: 81,
     vonnie: 60
 }
-// ===================================
-// USING FOR...IN TO ITERATE AN OBJECT
-// ===================================
 
-for (let person in testScores) {
-    console.log(`${person} scored ${testScores[person]}`);
-}
-
-// ==============================================
-// Using Object methods to iterate
-// (turn data into an array and then use for...of)
-// ==============================================
+// for(let person in testScores) {
+//     console.log(`${person} scored ${testScores[person]}`);
+// }
 
 let total = 0;
 let scores = Object.values(testScores);
-for (let score of scores) {
+for(let score of scores) {
     total += score;
 }
-console.log(total / scores.length)
-
+console.log(total/scores.length)
