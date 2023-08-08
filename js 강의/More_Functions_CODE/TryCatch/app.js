@@ -2,13 +2,12 @@
 // try {
 //     hello.toUpperCase();
 // } catch {
-//     console.log("ERROR!!!!")
+//     console.log("ERRORR!!!")
 // }
-// hello.toUpperCase();
 
 // console.log("AFTER!")
 
-function yell(msg) {
+function yell(msg){
     try {
         console.log(msg.toUpperCase().repeat(3));
     } catch (e) {
