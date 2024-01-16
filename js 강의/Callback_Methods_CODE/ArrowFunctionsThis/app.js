@@ -33,7 +33,7 @@
 const person = {
   firstName: "Viggo",
   lastName: "Mortensen",
-  fullName: () => {
+  fullName: function () {
     return `${this.firstName} ${this.lastName}`;
   },
   shoutName: function () {
