@@ -40,16 +40,15 @@ const user2 = {
 
 const { city, state, died = 'N/A' } = user2;
 
-// ===================
-// PARAM DESTRUCTURING
-// ===================
+// 매개 변수 구조 분해
 
 // function fullName(user) {
 //     return `${user.firstName} ${user.lastName}`
 // }
+
 // function fullName(user) {
-//     const { firstName, lastName } = user;
-//     return `${firstName} ${lastName}`
+//   const { firstName, lastName } = user;
+//   return `${firstName} ${lastName}`;
 // }
 
 function fullName({ firstName, lastName }) {
@@ -104,7 +103,7 @@ const movies = [
   },
 ];
 
-// movies.filter((movie) => movie.score >= 90)
+// movies.filter((movie) => movie.score >= 90);
 // movies.filter(({ score }) => score >= 90)
 
 // movies.map(movie => {
