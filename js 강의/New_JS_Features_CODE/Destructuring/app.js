@@ -1,4 +1,4 @@
-// 배열 분해
+// 배열 구조 분해
 const scores = [929321, 899341, 888336, 772739, 543671, 243567, 111934];
 
 const highScore = scores[0];
@@ -6,9 +6,7 @@ const secondHighScore = scores[1];
 
 const [gold, silver, bronze, ...everyonElse] = scores;
 
-// ===================
-// OBJECT DESTRUCTURING
-// ===================
+// 객체 구조 분해
 const user = {
   email: 'harvey@gmail.com',
   password: 'sCoTt1948sMiTh',
@@ -33,11 +31,14 @@ const user2 = {
 // const firstName = user.firstName;
 // const lastName = user.lastName;
 // const email = user.email;
-const { email, firstName, lastName, city, bio } = user;
 
+// 순서 상관 없음
+// const { email, firstName, lastName, city, bio } = user;
+
+// 요소에 이름 할당하기
 // const { born: birthYear, died: deathYear = 'N/A' } = user;
 
-// const { city, state, died = 'N/A' } = user2;
+const { city, state, died = 'N/A' } = user2;
 
 // ===================
 // PARAM DESTRUCTURING
