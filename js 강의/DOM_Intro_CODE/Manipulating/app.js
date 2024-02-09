@@ -23,3 +23,5 @@ for (let link of allLinks) {
 
 // JavaScript에서는 카멜 케이스 사용
 // style 속성 부여 시, 문자열 사용
+
+// classList : 요소의 클래스를 제어하고, 클래스를 검색하며 조작함
