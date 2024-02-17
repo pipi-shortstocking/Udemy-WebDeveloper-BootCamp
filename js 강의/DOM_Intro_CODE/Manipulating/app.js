@@ -33,3 +33,9 @@ for (let link of allLinks) {
 // .children - htmlcollection 반환
 // .previousSibiling <-> .nextSibiling - 해당하는 노드 출력
 // .previousElementSibiling <-> .nextElementSibiling - 해당하는 요소 출력
+
+// .createElement - 태그 이름을 전달하여 새로운 요소 생성
+// .appendChild - 특정 요소의 마지막 요소로 삽입 (노드만 전달 가능)
+// .append - 다중 요소 삽입
+// .prepend - 요소의 첫번째 자녀로 삽입
+// .insertAdjacentElement(position, element) - 요소를 삽입하려는 위치를 지정하여 삽입
