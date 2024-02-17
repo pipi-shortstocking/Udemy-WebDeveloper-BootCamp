@@ -25,3 +25,11 @@ for (let link of allLinks) {
 // style 속성 부여 시, 문자열 사용
 
 // classList : 요소의 클래스를 제어하고, 클래스를 검색하며 조작함
+
+// const firstBold = document.querySelector("b");
+
+// firstBold.parentElement; // 부모 요소 선택
+// .childElementCount - 자식 요소의 개수를 알려줌
+// .children - htmlcollection 반환
+// .previousSibiling <-> .nextSibiling - 해당하는 노드 출력
+// .previousElementSibiling <-> .nextElementSibiling - 해당하는 요소 출력
