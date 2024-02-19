@@ -1,13 +1,13 @@
-const allLinks = document.querySelectorAll("a");
+const allLinks = document.querySelectorAll('a');
 
 // for (let link of allLinks) {
 //   link.innerText = "I AM A LINK!!!!";
 // }
 
 for (let link of allLinks) {
-  link.style.color = "rgb(0, 108, 134)";
-  link.style.textDecorationColor = "magenta";
-  link.style.textDecorationStyle = "wavy";
+  link.style.color = 'rgb(0, 108, 134)';
+  link.style.textDecorationColor = 'magenta';
+  link.style.textDecorationStyle = 'wavy';
 }
 
 // const firstLink = document.querySelector("a");
@@ -39,3 +39,6 @@ for (let link of allLinks) {
 // .append - 다중 요소 삽입
 // .prepend - 요소의 첫번째 자녀로 삽입
 // .insertAdjacentElement(position, element) - 요소를 삽입하려는 위치를 지정하여 삽입
+
+// .removeChild는 부모를 통해 자식을 삭제하는 것
+// .remove는 제거하려는 바로 그 요소에 호출하느 메서드, 부모나 자식에는 신경쓰지 않아도 됨
