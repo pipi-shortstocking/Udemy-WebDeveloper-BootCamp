@@ -1,4 +1,5 @@
 // Promise는 어떤 연산, 비동기 연산이 최종적으로 완료 혹은 성공여부를 알려주는 객체
+// JavaScript가 만들어진 초창기에 생김
 
 // THE CALLBACK VERSION
 const fakeRequestCallback = (url, success, failure) => {
@@ -90,6 +91,7 @@ fakeRequestPromise("yelp.com/api/coffee/page1")
     console.log(data);
   })
   .catch((err) => {
+    // 모든 것의 끝에 catch만 있으면 됨!
     console.log("OH NO, A REQUEST FAILED!!!");
     console.log(err);
   });
