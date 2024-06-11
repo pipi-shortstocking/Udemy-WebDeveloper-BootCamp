@@ -1,1 +1,5 @@
 // AJAX: 비동기식 JavaScript와 XML
+// API (Application Programming Interface)
+// - 컴퓨터가 여러 소프트웨어와 상호 작용하거나 소통하는 모든 인터페이스를 의미하는 광범위한 용어
+// - WebAPI : 웹, HTTP를 기반으로 하는 인터페이스
+//  - 다른 애플리케이션이나 데이터베이스로 가는 입구
