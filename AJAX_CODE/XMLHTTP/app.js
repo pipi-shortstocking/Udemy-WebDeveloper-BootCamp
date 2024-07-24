@@ -9,7 +9,7 @@ req.onload = function () {
 };
 
 req.onerror = function () {
-  console.log("ERROR!!!!");
+  console.log("ERROR");
   console.log(this);
 };
 
