@@ -4,7 +4,7 @@
 //     console.log("RESPONSE: ", res);
 //   })
 //   .catch((e) => {
-//     console.log("ERROR! ", e);
+//     console.log("ERROR!", e);
 //   });
 
 const getStarWarsPerson = async (id) => {
